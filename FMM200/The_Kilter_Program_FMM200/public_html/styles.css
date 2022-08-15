@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    
+    font-family: 'Cabin', sans-serif;
+    background-color: #8ecae6 ;
+    
+    margin: 0 0 20px 0;
+        
+}
+body::-webkit-scrollbar {
+    
+
+    background-color: #8ecae6 ;    
+
+        
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #fb8500;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+
+  }
+
+ul {
+    
+    list-style-type: none;
+    display: inline;
+    
+}
+.navigationBar {
+        
+    background-color: white;
+    padding: 20px 0;
+    height: 40px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    
+}
+.navLogo {
+    
+    float: left;
+    margin-left: 40px;
+    
+}
+
+.navButton {
+    
+    float: right;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+
+.navButton:hover {
+    
+    float: right;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    color: #fb8500;
+    
+}
+
+.navContent {
+
+    margin-right:  80px;
+    text-align: center;
+    border-radius: 5px;
+    color: #219ebc;
+          
+}
+
+.topic {
+    
+    color: #023047;
+    text-align: center;
+    
+}
+
+.profile {
+    
+    width: 60px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: #fb8500;
+    
+}
+.mail {
+    
+    color:#023047;
+    text-decoration: none;
+    
+}
+table {
+    
+    width: 100%;
+    text-align: center;
+    border: none;
+    position: absolute;
+    width: 100%;
+    position: sticky;
+    top: 0%;
+    z-index: 0;
+    
+}
+
+.nextBtn {
+    
+    background-color: #fb8500;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    
+    
+}
+.nextBtn:hover {
+    
+    background-color: #B05E00;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+
+    
+}
+
+.row1:hover {
+    
+    background-color: #76B2CE ;
+    
+}
+
+thead {
+
+    font-size: 25px;
+    color: #023047;
+    background-color: #8ecae6;
+
+}
+
+.iFrame {
+
+    position: relative;
+    top: 50px;
+    
+}
+
+iframe, video {
+
+
+    background-color: #000000;
+    
+    border: 5px solid #fb8500;
+    border-radius: 5px;
+    margin: 0 auto;
+
+}
+
+
+
